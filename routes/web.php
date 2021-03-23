@@ -16,3 +16,5 @@
 // });
 
 Route::get('/', 'PanelAdmin\PanelAdminController@tampilDasbor');
+
+Route::get('identitas-desa','InfoDesa\IdentitasDesaController@indexIndetitasDesa');
