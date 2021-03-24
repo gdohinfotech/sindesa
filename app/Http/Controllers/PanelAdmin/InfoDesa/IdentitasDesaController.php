@@ -10,4 +10,8 @@ class IdentitasDesaController extends Controller
     public function indexIndetitasDesa() {
         return view('admin-identitasdesa.index');
     }
+
+    public function editIndetitasDesa() {
+        return view('admin-identitasdesa.edit');
+    }
 }

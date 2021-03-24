@@ -4,27 +4,27 @@
 
 <!-- Content Header (Page header) -->
     <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0">
-                Identitas Desa
-            </h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item">
-                    <a href="#">
-                        Dasbor
-                    </a>
-                </li>
-              <li class="breadcrumb-item active">
-                Identitas Desa
-              </li>
-            </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">
+                        Identitas Desa
+                    </h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                            <a href="#">
+                                Dasbor
+                            </a>
+                        </li>
+                    <li class="breadcrumb-item active">
+                        Identitas Desa
+                    </li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
     </div>
 <!-- /.content-header -->
     
@@ -38,7 +38,8 @@
                 <!-- <h3 class="card-title">
                     Summernote
                 </h3> -->
-                <button type="submit" class="btn btn-outline-primary btn-sm">
+
+                <button onclick="window.location='{{ route('admin.identitas-desa.edit') }}'" type="submit" class="btn btn-outline-primary btn-sm">
                     Ubah Data Desa
                 </button>
                 <button type="submit" class="btn btn-outline-primary btn-sm">

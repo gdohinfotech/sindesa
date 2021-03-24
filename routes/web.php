@@ -15,6 +15,9 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'PanelAdmin\PanelAdminController@tampilDasbor');
+Route::get('/', 'PanelAdmin\PanelAdminController@tampilDasbor')->name('admin.dasbor');
 
+//Identitas Desa
 Route::get('identitas-desa','PanelAdmin\InfoDesa\IdentitasDesaController@indexIndetitasDesa')->name('admin.identitas-desa.index');
+Route::get('identitas-desa/edit','PanelAdmin\InfoDesa\IdentitasDesaController@editIndetitasDesa')->name('admin.identitas-desa.edit');
+
