@@ -18,7 +18,13 @@
 Route::get('/', 'PanelAdmin\DasborController@tampilDasbor')->name('dasbor');
 
 // Routes for Info Desa
-Route::get('/identitas-desa','InfoDesa\IdentitasDesaController@indexIndetitasDesa')->name('identitas.desa');
+Route::get('identitas-desa','PanelAdmin\InfoDesa\IdentitasDesaController@indexIndetitasDesa')->name('admin.identitas-desa.index');
+Route::get('identitas-desa/edit','PanelAdmin\InfoDesa\IdentitasDesaController@editIndetitasDesa')->name('admin.identitas-desa.edit');
 
 // Routes for Kependudukan
 Route::get('/penduduk','PanelAdmin\PendudukController@index')->name('data.penduduk');
+
+Route::get('/', 'PanelAdmin\PanelAdminController@tampilDasbor')->name('admin.dasbor');
+
+
+
