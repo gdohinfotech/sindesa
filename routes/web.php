@@ -15,6 +15,10 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'PanelAdmin\PanelAdminController@tampilDasbor');
+Route::get('/', 'PanelAdmin\DasborController@tampilDasbor')->name('dasbor');
 
-Route::get('identitas-desa','InfoDesa\IdentitasDesaController@indexIndetitasDesa');
+// Routes for Info Desa
+Route::get('/identitas-desa','InfoDesa\IdentitasDesaController@indexIndetitasDesa')->name('identitas.desa');
+
+// Routes for Kependudukan
+Route::get('/penduduk','PanelAdmin\PendudukController@index')->name('data.penduduk');

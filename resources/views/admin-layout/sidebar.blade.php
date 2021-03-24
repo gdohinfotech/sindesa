@@ -2,7 +2,7 @@
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <img src="{{ asset('AdminLTE/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">SINDESA</span>
     </a>
 
     <!-- Sidebar -->
@@ -10,7 +10,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-1 mb-1 d-flex">
         <div class="image">
-          <img src="{{ asset('AdminLTE/dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
+          <img src="{{ asset('AdminLTE/dist/img/LOGOKABBANJAR.PNG') }}" class="" alt="User Image">
         </div>
         <div class="info">
           <strong>Desa Akar Baru</strong>
@@ -23,15 +23,15 @@
           <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
           <li class="nav-header">SISTEM INFORMASI DESA</li>
           <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+            <a href="{{ route('dasbor') }}" class="nav-link active">
               <i class="nav-icon fas fa-home"></i>
               <p>
-                Beranda
+                Dasbor
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="" class="nav-link">
               <i class="nav-icon fas fa-info-circle"></i>
               <p>
                 Info Desa
@@ -46,7 +46,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                <a href="{{ route('identitas.desa') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Identitas Desa</p>
                 </a>
@@ -75,7 +75,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/charts/chartjs.html" class="nav-link">
+                <a href="{{ route('data.penduduk') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Penduduk</p>
                 </a>
