@@ -17,4 +17,4 @@
 
 Route::get('/', 'PanelAdmin\PanelAdminController@tampilDasbor');
 
-Route::get('identitas-desa','InfoDesa\IdentitasDesaController@indexIndetitasDesa');
+Route::get('identitas-desa','PanelAdmin\InfoDesa\IdentitasDesaController@indexIndetitasDesa')->name('admin.identitas-desa.index');

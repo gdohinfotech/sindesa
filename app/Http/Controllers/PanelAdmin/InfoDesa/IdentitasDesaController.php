@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\InfoDesa;
+namespace App\Http\Controllers\PanelAdmin\InfoDesa;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
