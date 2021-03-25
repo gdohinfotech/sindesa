@@ -26,17 +26,16 @@
             <div class="card card-outline card-info">
                 <div class="card-header">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-primary btn-sm btn-block"><i class="fa fa-plus"></i>  Penduduk Domisili</button>
+                        <button type="button" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>  Penduduk Domisili</button>
                     </div>
                     <div class="btn-group">
-                        <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Pilih Aksi Lainnya
+                        <button type="button" class="btn btn-success btn-sm btn-social btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Pilih Aksi Lainnya</button>
                             <div class="dropdown-menu" role="menu">
                                 <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                 <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                 <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                 <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                             </div>
-                        </button>
                     </div>
                 </div>
                 <div class="card-body">
@@ -60,19 +59,18 @@
                             <th>TANGGAL TERDAFTAR</th>
                         </tr>
                     </thead>
-                    <tbody style = "height:600px">
+                    <tbody>
                         <tr>
                             <td>1</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -90,17 +88,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>2</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -118,17 +115,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>3</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -146,17 +142,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>4</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -174,17 +169,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>5</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -202,17 +196,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>6</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -230,17 +223,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>7</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -258,17 +250,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>8</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -286,17 +277,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>9</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>
@@ -314,45 +304,16 @@
                             <td>23 NOVEMBER 2020</td>                                                         
                         </tr>
                         <tr>
-                            <td>1</td>
+                            <td>10</td>
                             <td>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
+                                <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
                                     <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                                 </div>
-                                </button>
-                            </div>
-                            </td>
-                            <td>6372022311920003</td>
-                            <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
-                            <td>NOORCHALIDAH</td>
-                            <td>6372022311920003</td>
-                            <td>LANDASAN ULIN</td>
-                            <td>002</td> 
-                            <td>003</td> 
-                            <td>STRATA/I</td> 
-                            <td>28</td>                             
-                            <td>WIRASWASTA</td>                                                         
-                            <td>KAWIN</td>                                                         
-                            <td>23 NOVEMBER 2020</td>                                                         
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-success btn-sm btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>  Aksi
-                                <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
-                                </div>
-                                </button>
                             </div>
                             </td>
                             <td>6372022311920003</td>

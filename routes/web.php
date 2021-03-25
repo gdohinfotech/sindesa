@@ -24,7 +24,6 @@ Route::get('identitas-desa/edit','PanelAdmin\InfoDesa\IdentitasDesaController@ed
 // Routes for Kependudukan
 Route::get('/penduduk','PanelAdmin\PendudukController@index')->name('data.penduduk');
 
-Route::get('/', 'PanelAdmin\PanelAdminController@tampilDasbor')->name('admin.dasbor');
 
 
 

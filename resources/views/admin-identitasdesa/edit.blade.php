@@ -13,7 +13,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item">
-                            <a href="{{ route('admin.dasbor') }}">
+                            <a href="{{ route('dasbor') }}">
                                 Dasbor
                             </a>
                         </li>
