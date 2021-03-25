@@ -22,9 +22,12 @@
                         Identitas Desa
                     </li>
                     </ol>
-                </div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
     </div>
 <!-- /.content-header -->
     
@@ -42,12 +45,12 @@
                 <button onclick="window.location='{{ route('admin.identitas-desa.edit') }}'" type="submit" class="btn btn-outline-primary btn-sm">
                     Ubah Data Desa
                 </button>
-                <button type="submit" class="btn btn-outline-primary btn-sm">
+                <!-- <button type="submit" class="btn btn-outline-primary btn-sm">
                     Lokasi Kantor Desa
                 </button>
                 <button type="submit" class="btn btn-outline-primary btn-sm">
                     Lokasi Kantor Desa
-                </button>
+                </button> -->
             </div>
             <div class="card-body">
                 <div style="text-align: center">
