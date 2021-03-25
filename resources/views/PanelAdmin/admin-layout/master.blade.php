@@ -32,6 +32,9 @@
   <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
   <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/datatables-buttons/css/buttons.bootstrap4.min.css')}}">
   <link rel="stylesheet" href="{{ asset('AdminLTE/dist/css/sindes.css')}}">
+
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/daterangepicker/daterangepicker.css')}}">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -42,11 +45,11 @@
   </div> -->
 
   <!-- Navbar -->
-    @include('admin-layout.navigation')
+    @include('PanelAdmin.admin-layout.navigation')
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-    @include('admin-layout.sidebar')
+    @include('PanelAdmin.admin-layout.sidebar')
   <!-- /.sidebar -->
   
   <!-- Content Wrapper. Contains page content -->
@@ -58,7 +61,7 @@
   <!-- /.content-wrapper -->
   
   <!-- footer -->
-    @include('admin-layout.footer')
+    @include('PanelAdmin.admin-layout.footer')
   <!-- footer -->
 
   <!-- Control Sidebar -->
@@ -118,6 +121,9 @@
 <script src="{{ asset('AdminLTE/plugins/datatables-buttons/js/buttons.html5.min.js')}}"></script>
 <script src="{{ asset('AdminLTE/plugins/datatables-buttons/js/buttons.print.min.js')}}"></script>
 <script src="{{ asset('AdminLTE/plugins/datatables-buttons/js/buttons.colVis.min.js')}}"></script>
+
+<!-- date-range-picker -->
+<script src="{{ asset('AdminLTE/plugins/daterangepicker/daterangepicker.js')}}"></script>
 <script>
     $(function () {
         $("#example1").DataTable({
@@ -139,6 +145,10 @@
         fixedColumns: true
     } );
 } );
+
+$('#datepick').datetimepicker({
+        format: 'L'
+    });
 </script>
 </body>
 </html>

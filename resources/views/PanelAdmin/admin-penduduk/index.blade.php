@@ -1,4 +1,4 @@
-@extends('admin-layout.master')
+@extends('PanelAdmin.admin-layout.master')
 
 @section('content')
 <!-- Content Header (Page header) -->
@@ -26,15 +26,15 @@
             <div class="card card-outline card-info">
                 <div class="card-header">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>  Penduduk Domisili</button>
+                        <a href="{{ route('admin.kependudukan.add') }}" type="button" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>  Penduduk Domisili</a>
                     </div>
                     <div class="btn-group">
                         <button type="button" class="btn btn-success btn-sm btn-social btn-block" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Pilih Aksi Lainnya</button>
                             <div class="dropdown-menu" role="menu">
-                                <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>  Cetak</a>
+                                <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-download"></i>  Unduh</a>
+                                <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
+                                <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
                             </div>
                     </div>
                 </div>

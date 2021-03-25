@@ -9,6 +9,6 @@ class DasborController extends Controller
 {
     public function tampilDasbor()
     {
-        return view('admin-dasbor.index');
+        return view('PanelAdmin.admin-dasbor.index');
     }
 }
