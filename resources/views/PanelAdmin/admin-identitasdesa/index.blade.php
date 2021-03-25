@@ -1,4 +1,4 @@
-@extends('admin-layout.master')
+@extends('PanelAdmin.admin-layout.master')
 
 @section('content')
 
@@ -14,7 +14,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item">
-                            <a href="#">
+                            <a href="{{ route('dasbor') }}">
                                 Dasbor
                             </a>
                         </li>
@@ -36,7 +36,7 @@
 <div class="row">
     <!-- start col-md-12 -->
     <div class="col-md-12">
-        <div class="card card-outline card-info">
+        <div class="card card-primary card-outline">
             <div class="card-header">
                 <!-- <h3 class="card-title">
                     Summernote
@@ -224,12 +224,6 @@
                 <!-- /table -->
             </div>
 
-            <!-- <div class="card-footer">
-                    "Visit "
-                    <a href="https://github.com/summernote/summernote/">Summernote</a>
-                    " documentation for more examples and information about the plugin. "
-             
-            </div> -->
         </div>
     </div>
     <!-- end col-md-12 -->

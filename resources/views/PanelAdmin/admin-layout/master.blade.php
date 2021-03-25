@@ -42,11 +42,11 @@
   </div> -->
 
   <!-- Navbar -->
-    @include('admin-layout.navigation')
+    @include('PanelAdmin.admin-layout.navigation')
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-    @include('admin-layout.sidebar')
+    @include('PanelAdmin.admin-layout.sidebar')
   <!-- /.sidebar -->
   
   <!-- Content Wrapper. Contains page content -->
@@ -58,7 +58,7 @@
   <!-- /.content-wrapper -->
   
   <!-- footer -->
-    @include('admin-layout.footer')
+    @include('PanelAdmin.admin-layout.footer')
   <!-- footer -->
 
   <!-- Control Sidebar -->

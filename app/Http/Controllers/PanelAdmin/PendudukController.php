@@ -9,6 +9,6 @@ class PendudukController extends Controller
 {
     public function index()
     {
-        return view('admin-penduduk.index');
+        return view('PanelAdmin.admin-penduduk.index');
     }
 }

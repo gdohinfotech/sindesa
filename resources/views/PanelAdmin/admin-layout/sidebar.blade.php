@@ -52,7 +52,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
+                <a href="{{ route('admin.wil-administratif.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Wilayah Administratif</p>
                 </a>

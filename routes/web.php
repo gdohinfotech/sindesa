@@ -21,6 +21,9 @@ Route::get('/', 'PanelAdmin\DasborController@tampilDasbor')->name('dasbor');
 Route::get('identitas-desa','PanelAdmin\InfoDesa\IdentitasDesaController@indexIndetitasDesa')->name('admin.identitas-desa.index');
 Route::get('identitas-desa/edit','PanelAdmin\InfoDesa\IdentitasDesaController@editIndetitasDesa')->name('admin.identitas-desa.edit');
 
+// Routes for Wilayah Administratif
+Route::get('wilayah-administratif','PanelAdmin\InfoDesa\WilayahAdministratifController@indexWilAdministratif')->name('admin.wil-administratif.index');
+
 // Routes for Kependudukan
 Route::get('/penduduk','PanelAdmin\PendudukController@index')->name('data.penduduk');
 
