@@ -25,8 +25,8 @@ Route::get('identitas-desa/edit','PanelAdmin\InfoDesa\IdentitasDesaController@ed
 Route::get('wilayah-administratif','PanelAdmin\InfoDesa\WilayahAdministratifController@indexWilAdministratif')->name('admin.wil-administratif.index');
 
 // Routes for Kependudukan
-Route::get('/penduduk','PanelAdmin\PendudukController@index')->name('data.penduduk');
-
+Route::get('/penduduk','PanelAdmin\Kependudukan\PendudukController@index')->name('admin.kependudukan.index');
+Route::get('/add','PanelAdmin\Kependudukan\PendudukController@addpenduduk')->name('admin.kependudukan.add');
 
 
 

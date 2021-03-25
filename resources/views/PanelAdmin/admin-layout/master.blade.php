@@ -32,6 +32,9 @@
   <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
   <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/datatables-buttons/css/buttons.bootstrap4.min.css')}}">
   <link rel="stylesheet" href="{{ asset('AdminLTE/dist/css/sindes.css')}}">
+
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/daterangepicker/daterangepicker.css')}}">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -118,6 +121,9 @@
 <script src="{{ asset('AdminLTE/plugins/datatables-buttons/js/buttons.html5.min.js')}}"></script>
 <script src="{{ asset('AdminLTE/plugins/datatables-buttons/js/buttons.print.min.js')}}"></script>
 <script src="{{ asset('AdminLTE/plugins/datatables-buttons/js/buttons.colVis.min.js')}}"></script>
+
+<!-- date-range-picker -->
+<script src="{{ asset('AdminLTE/plugins/daterangepicker/daterangepicker.js')}}"></script>
 <script>
     $(function () {
         $("#example1").DataTable({
@@ -139,6 +145,10 @@
         fixedColumns: true
     } );
 } );
+
+$('#datepick').datetimepicker({
+        format: 'L'
+    });
 </script>
 </body>
 </html>

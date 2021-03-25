@@ -129,3 +129,15 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+.subtitle_head {
+  padding: 10px 50px 10px 5px;
+  background-color: #a2f2ef;
+  margin: 15px 0px 10px 0px;
+  text-align: left;
+  color: #111
+}
+
+.subtitle_head label {
+  margin-bottom: 0px;
+}
