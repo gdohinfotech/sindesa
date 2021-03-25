@@ -52,7 +52,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('admin.wil-administratif.index') }}" class="nav-link">
+                <a href="{{ route('admin.wil-administratif.index-RW') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Wilayah Administratif</p>
                 </a>
