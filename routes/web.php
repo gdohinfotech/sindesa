@@ -28,6 +28,8 @@ Route::get('wilayah-administratif/add-rw','PanelAdmin\InfoDesa\WilayahAdministra
 Route::get('wilayah-administratif/rt','PanelAdmin\InfoDesa\WilayahAdministratifController@indexRT')->name('admin.wil-administratif.index-RT');
 Route::get('wilayah-administratif/add-rt','PanelAdmin\InfoDesa\WilayahAdministratifController@addRT')->name('admin.wil-administratif.add-RT');
 
+// Routes for Pemerintahan Desa
+Route::get('pemerintahan-desa','PanelAdmin\InfoDesa\PemerintahDesaController@indexPemerintahDesa')->name('admin.pemerintahan-desa.index');
 
 // Routes for Kependudukan
 Route::get('/penduduk','PanelAdmin\Kependudukan\PendudukController@index')->name('admin.kependudukan.index');

@@ -146,6 +146,27 @@
     } );
 } );
 
+    //datatable for pemerintah desa table
+    $(function () {
+        $("#pemerintah-desa").DataTable({
+        "responsive": true, 
+        "lengthChange": false, 
+        "autoWidth": false,
+        "lengthChange": true,
+        "language": {
+          "lengthMenu": "Menampilkan _MENU_ baris data per halaman",
+          "info": "Menampilkan data ke _START_ sampai dengan ke _END_ dari total _TOTAL_ baris data",
+          "search": "Cari:",
+          "paginate": {
+            "next": "Selanjutnya",
+            "previous": "Sebelumnya"
+          }
+        }
+        })
+        .buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    });
+    // datatable for pemerintah desa table
+
 $('#datepick').datetimepicker({
         format: 'L'
     });
