@@ -16,4 +16,9 @@ class PendudukController extends Controller
     {
         return view('PanelAdmin.admin-penduduk.add');
     }
+
+    public function readpenduduk()
+    {
+        return view('PanelAdmin.admin-penduduk.read');
+    }
 }

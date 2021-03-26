@@ -66,10 +66,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -93,10 +95,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -120,10 +124,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -147,10 +153,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -174,10 +182,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -201,10 +211,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -228,10 +240,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -255,10 +269,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -282,10 +298,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -309,10 +327,12 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item" href="#"><i class="fas fa-print"></i>  Cetak</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Unduh</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-search"></i>  Pencarian Spesifik</a>
-                                    <a class="dropdown-item" href="#"><i class="fas fa-book"></i>  Log Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>

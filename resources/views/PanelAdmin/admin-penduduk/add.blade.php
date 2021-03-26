@@ -216,7 +216,7 @@
                                                 <i class="fa fa-calendar"></i>
                                             </div>
                                         </div>
-                                        <input class="form-control form-control-sm pull-right required" id="tgl_1" name="tanggallahir" type="text" value="">
+                                        <input class="form-control form-control-sm pull-right required" id="tgl_1" name="tanggallahir" type="text" value="" data-target="#datepick" data-toggle="datetimepicker">
                                     </div>
                                 </div>
                             </div>
@@ -473,7 +473,7 @@
                                                 <i class="fa fa-calendar"></i>
                                             </div>
                                         </div>
-                                        <input class="form-control form-control-sm pull-right" id="tgl_2" name="tanggal_akhir_paspor" type="text" value="">
+                                        <input class="form-control form-control-sm pull-right" id="tgl_2" name="tanggal_akhir_paspor" type="text" value="" data-target="#datepick" data-toggle="datetimepicker">
                                     </div>
                                 </div>
                             </div>

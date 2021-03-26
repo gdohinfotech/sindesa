@@ -5,6 +5,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-right: 5px;
 }
 
 .btn-social> :first-child {
