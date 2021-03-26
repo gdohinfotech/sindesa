@@ -26,6 +26,7 @@ Route::get('wilayah-administratif/rw','PanelAdmin\InfoDesa\WilayahAdministratifC
 Route::get('wilayah-administratif/add-rw','PanelAdmin\InfoDesa\WilayahAdministratifController@addRW')->name('admin.wil-administratif.add-RW');
 
 Route::get('wilayah-administratif/rt','PanelAdmin\InfoDesa\WilayahAdministratifController@indexRT')->name('admin.wil-administratif.index-RT');
+Route::get('wilayah-administratif/add-rt','PanelAdmin\InfoDesa\WilayahAdministratifController@addRT')->name('admin.wil-administratif.add-RT');
 
 
 // Routes for Kependudukan

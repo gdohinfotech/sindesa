@@ -20,5 +20,9 @@ class WilayahAdministratifController extends Controller
         return view('PanelAdmin.admin-wiladministratif.index-rt');
     }
 
+    public function addRT()
+    {
+        return view('PanelAdmin.admin-wiladministratif.add-rt');
+    }
     
 }
