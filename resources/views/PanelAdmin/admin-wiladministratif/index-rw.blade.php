@@ -12,14 +12,14 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item">
+                    <li class="breadcrumb-item">
                         <a href="{{ route('dasbor') }}">
                             Dasbor
                         </a>
                     </li>
-                <li class="breadcrumb-item active">
-                    Wilayah Administratif Desa
-                </li>
+                    <li class="breadcrumb-item active">
+                        Daftar Wilayah RW
+                    </li>
                 </ol>
             </div>
             <!-- /.col -->
@@ -93,7 +93,7 @@
                                 </td>
                                 <td>
                                     <!-- <div class="btn-group"> -->
-                                    <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
+                                    <button onclick="window.location='{{ route('admin.wil-administratif.index-RT') }}'" type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
                                         <i class="fas fa-layer-group"></i>
                                         Lihat Rincian
                                     </button>
