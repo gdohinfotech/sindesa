@@ -18,7 +18,9 @@
                         </a>
                     </li>
                     <li class="breadcrumb-item active">
-                        Daftar Penyelenggara Pemerintahan Desa
+                        <a href="{{ route('admin.pemerintahan-desa.index') }}">
+                            Daftar Penyelenggara Pemerintahan Desa
+                        </a>
                     </li>
                 </ol>
             </div>
@@ -38,7 +40,7 @@
             <div class="card card-primary card-outline">
                 <div class="card-header">
                     <div class="btn-group">
-                        <button onclick="window.location='{{ route('admin.wil-administratif.add-RW') }}'" type="submit" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>
+                        <button onclick="window.location='{{ route('admin.pemerintahan-desa.add') }}'" type="submit" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>
                             Tambah Aparat Pemerintahan Desa
                         </button>
                     </div>
@@ -53,32 +55,45 @@
                                     No
                                 </th>
                                 <th>
-                                    Aksi
+                                    AKSI
                                 </th>
                                 <th>
-                                    RW
+                                    NAMA
                                 </th>
                                 <th>
-                                    Ketua RW
+                                    NIK
                                 </th>
                                 <th>
-                                    NIK Ketua RW
+                                    NIP / NIPD
                                 </th>
                                 <th>
-                                    RT
+                                    TANGGAL LAHIR
                                 </th>
                                 <th>
-                                    KK
+                                    JENIS KELAMIN
                                 </th>
                                 <th>
-                                    L+P
+                                    AGAMA
                                 </th>
                                 <th>
-                                    L
+                                    JABATAN
                                 </th>
                                 <th>
-                                    P
+                                    NOMOR SK PENGANGKATAN
                                 </th>
+                                <th>
+                                    TANGGAL SK PENGANGKATAN
+                                </th>
+                                <th>
+                                    TERHITUNG MULAI TANGGAL (TMT)
+                                </th>
+                                <th>
+                                    NOMOR SK PEMBERHENTIAN
+                                </th>
+                                <th>
+                                    TANGGAL SK PEMBERHENTIAN
+                                </th>
+                               
                             </tr>
                         </thead>
                         <tbody>
@@ -124,6 +139,18 @@
                                 </td>
                                 <td>
                                     368
+                                </td>
+                                <td>
+                                    376
+                                </td>
+                                <td>
+                                    376
+                                </td>
+                                <td>
+                                    376
+                                </td>
+                                <td>
+                                    376
                                 </td>
                                 <td>
                                     376
@@ -175,434 +202,14 @@
                                 <td>
                                     180
                                 </td>
-                            </tr>
-
-                            <tr>
                                 <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
+                                    180
                                 </td>
                                 <td>
                                     180
                                 </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
-                                </td>
                                 <td>
                                     180
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    <!-- <div class="btn-group"> -->
-                                        <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-layer-group"></i>
-                                            Lihat Rincian
-                                        </button>
-
-                                        <button type="button" class="btn btn-warning btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-edit"></i>
-                                            Ubah
-                                        </button>
-
-                                        <button type="button" class="btn btn-danger btn-xs btn-social" data-toggle="dropdown">
-                                            <i class="fas fa-trash-alt"></i>
-                                            Hapus
-                                        </button>
-                                    <!-- </div> -->
-                                </td>
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    Muhammad Ramadani
-                                </td>
-                                <td>
-                                    63031501********
-                                </td>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    92
-                                </td>
-                                <td>
-                                    364
-                                </td>
-                                <td>
-                                    184
                                 </td>
                                 <td>
                                     180
