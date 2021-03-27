@@ -32,6 +32,9 @@ Route::get('wilayah-administratif/add-rt','PanelAdmin\InfoDesa\WilayahAdministra
 Route::get('pemerintahan-desa','PanelAdmin\InfoDesa\PemerintahDesaController@indexPemerintahDesa')->name('admin.pemerintahan-desa.index');
 Route::get('pemerintahan-desa/add','PanelAdmin\InfoDesa\PemerintahDesaController@addPemerintahDesa')->name('admin.pemerintahan-desa.add');
 
+// Routes for Sarana dan Prasaranan Desa
+Route::get('sarana-prasarana-desa','PanelAdmin\InfoDesa\SaranaPrasaranaController@indexSarPra')->name('admin.sarana-prasarana-desa.index');
+
 // Routes for Kependudukan
 Route::get('/penduduk','PanelAdmin\Kependudukan\PendudukController@index')->name('admin.kependudukan.index');
 Route::get('/add','PanelAdmin\Kependudukan\PendudukController@addpenduduk')->name('admin.kependudukan.add');
