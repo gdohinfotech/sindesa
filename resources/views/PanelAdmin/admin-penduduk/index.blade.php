@@ -67,11 +67,11 @@
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
                                     <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#confirm-delete"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
                             </div>
                             </td>
@@ -95,10 +95,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg2"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -124,10 +124,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg3"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -153,10 +153,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg4"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -182,10 +182,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg5"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -211,10 +211,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg6"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -240,10 +240,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg7"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -269,10 +269,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg8"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -298,10 +298,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg9"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -327,10 +327,10 @@
                             <div class="btn-group">
                                 <button type="button" class="btn btn-info btn-xs btn-social" data-toggle="dropdown"><i class="fas fa-caret-square-down"></i>Aksi</button>
                                 <div class="dropdown-menu" role="menu">
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
-                                    <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.read') }}"><i class="fas fa-list-ol"></i>Lihat Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.edit') }}"><i class="fas fa-edit"></i>Ubah Biodata Penduduk</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="#" data-toggle="modal" data-target="#modal-lg10"><i class="fas fa-edit"></i>Ubah Status Dasar</a>
+                                    <a class="dropdown-item btn-sm btn-social" href="{{ route('admin.kependudukan.doc') }}"><i class="fas fa-upload"></i>Upload Dokumen Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-print"></i>Cetak Biodata Penduduk</a>
                                     <a class="dropdown-item btn-sm btn-social" href="#"><i class="fas fa-trash"></i>Hapus Biodata Penduduk</a>
                                 </div>
@@ -352,6 +352,81 @@
                         </tr>
                     </tbody>
                 </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-lg">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Ubah Status Dasar</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class ="row">
+                        <div class='col-sm-12'>
+                            <div class='form-group'>
+                                <label for="status">Status Dasar Baru </label>
+                                <select class="form-control form-control-sm required" name="status" >
+                                    <option value="">Pilih Status Dasar</option>
+                                    <option value="1" >HIDUP</option>
+                                    <option value="2" >MATI</option>
+                                    <option value="3" >PINDAH</option>
+                                    <option value="3" >HILANG</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class='col-sm-12'>
+                            <div class='form-group'>
+                                <label for="tanggallahir">Tanggal Peristiwa</label>
+                                <div class="input-group input-group-sm date">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <i class="fa fa-calendar"></i>
+                                        </div>
+                                    </div>
+                                    <input class="form-control form-control-sm pull-right required" id="tgl_1" name="tanggallahir" type="text" value="" data-target="#datepick" data-toggle="datetimepicker">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Catatan Peristiwa</label>
+                                <textarea class="form-control form-control-sm" rows="3" placeholder="Catatan"></textarea>
+                                <p class="small">*mati/hilang terangkan penyebabnya, pindah tuliskan alamat pindah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary">Simpan</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+    </div>
+    <div class="modal fade in" id="confirm-delete">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Konfirmasi Hapus Biodata Penduduk</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body btn-info">
+                Apakah Anda yakin ingin menghapus data ini?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-social btn-flat btn-warning btn-sm" data-dismiss="modal"><i class="fa fa-sign-out-alt"></i> Tutup</button>
+                    <a class="btn-ok" href="">
+                    <button type="button" class="btn btn-social btn-flat btn-danger btn-sm" id="ok-delete"><i class="fa fa-trash"></i> Hapus</button>
+                    </a>
                 </div>
             </div>
         </div>

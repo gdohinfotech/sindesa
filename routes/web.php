@@ -28,7 +28,10 @@ Route::get('wilayah-administratif/rt','PanelAdmin\InfoDesa\WilayahAdministratifC
 // Routes for Kependudukan
 Route::get('/penduduk','PanelAdmin\Kependudukan\PendudukController@index')->name('admin.kependudukan.index');
 Route::get('/add','PanelAdmin\Kependudukan\PendudukController@addpenduduk')->name('admin.kependudukan.add');
+Route::get('/edit','PanelAdmin\Kependudukan\PendudukController@editpenduduk')->name('admin.kependudukan.edit');
 Route::get('/read','PanelAdmin\Kependudukan\PendudukController@readpenduduk')->name('admin.kependudukan.read');
+Route::get('/document','PanelAdmin\Kependudukan\PendudukController@docpenduduk')->name('admin.kependudukan.doc');
+Route::get('/anggota','PanelAdmin\Kependudukan\PendudukController@anggotapenduduk')->name('admin.kependudukan.anggota');
 
 
 

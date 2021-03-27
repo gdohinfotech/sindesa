@@ -75,13 +75,13 @@
                             <div class="col-4">
                                 <div class="form-group">
                                     <label for="NIK">NIK</label>
-                                    <input type="text" class="form-control form-control-sm" id="NIK" placeholder="Nomor NIK">
+                                    <input type="text" class="form-control form-control-sm" id="NIK" placeholder="Nomor NIK" value="6372022311920003">
                                 </div>
                             </div>
                             <div class="col-8">
                                 <div class="form-group">
                                     <label for="namalengkap">Email address</label>
-                                    <input type="text" class="form-control form-control-sm" id="namalengkap" placeholder="Nama Lengkaap">
+                                    <input type="text" class="form-control form-control-sm" id="namalengkap" placeholder="Nama Lengkap" value="RIZKYANOOR WIDIANTORO">
                                 </div>
                             </div>
                             <div class="col-12">
@@ -99,7 +99,7 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td width="25%"></td>
+                                                    <td width="25%">WAJIB</td>
                                                     <td>
                                                     <select name="ktp_el" class="form-control form-control-sm">
                                                         <option value="">Pilih KTP-EL</option>
@@ -204,7 +204,7 @@
                             <div class='col-sm-8'>
                                 <div class='form-group'>
                                     <label for="tempatlahir">Tempat Lahir</label>
-                                    <input id="tempatlahir" name="tempatlahir" class="form-control form-control-sm required" maxlength="100" type="text" placeholder="Tempat Lahir" value=""></input>
+                                    <input id="tempatlahir" name="tempatlahir" class="form-control form-control-sm required" maxlength="100" type="text" placeholder="Tempat Lahir" value="BANJARMASIN"></input>
                                 </div>
                             </div>
                             <div class='col-sm-4'>
@@ -263,7 +263,7 @@
                                     <div class='col-sm-4'>
                                         <div class='form-group'>
                                             <label for="kelahiran_anak_ke">Anak Ke <code>(Isi dengan angka)</code></label>
-                                            <input id="kelahiran_anak_ke" name="kelahiran_anak_ke" class="form-control form-control-sm number" maxlength="2" type="text" placeholder="Anak Ke" value=""></input>
+                                            <input id="kelahiran_anak_ke" name="kelahiran_anak_ke" class="form-control form-control-sm number" maxlength="2" type="text" placeholder="Anak Ke" value="2"></input>
                                         </div>
                                     </div>
                                     <div class='col-sm-4'>
@@ -499,7 +499,7 @@
                                     <div class='col-sm-8'>
                                         <div class='form-group'>
                                             <label for="nama_ayah">Nama Ayah </label>
-                                            <input id="nama_ayah" name="nama_ayah" class="form-control form-control-sm required nama" maxlength="100" type="text" placeholder="Nama Ayah" value=""></input>
+                                            <input id="nama_ayah" name="nama_ayah" class="form-control form-control-sm required nama" maxlength="100" type="text" placeholder="Nama Ayah" value="DONNY WIDIASMORO"></input>
                                         </div>
                                     </div>
                                 </div>
@@ -513,7 +513,7 @@
                             <div class='col-sm-8'>
                                 <div class='form-group'>
                                     <label for="nama_ibu">Nama Ibu </label>
-                                    <input id="nama_ibu" name="nama_ibu" class="form-control form-control-sm required nama" maxlength="100" type="text" placeholder="Nama Ibu" value=""></input>
+                                    <input id="nama_ibu" name="nama_ibu" class="form-control form-control-sm required nama" maxlength="100" type="text" placeholder="Nama Ibu" value="NOORCHALIDAH"></input>
                                 </div>
                             </div>
                             <div class='col-sm-12'>
