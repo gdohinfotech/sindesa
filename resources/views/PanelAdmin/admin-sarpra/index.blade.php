@@ -38,7 +38,7 @@
             <div class="card card-primary card-outline">
                 <div class="card-header">
                     <div class="btn-group">
-                        <button onclick="window.location='{{ route('admin.pemerintahan-desa.add') }}'" type="submit" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>
+                        <button onclick="window.location='{{ route('admin.sarana-prasarana-desa.add') }}'" type="submit" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>
                             Tambah Data
                         </button>
                     </div>
@@ -68,7 +68,7 @@
                                     STATUS
                                 </th>
                                 <th>
-                                    KONDISI (B, KB, RB)
+                                    KONDISI (B, KB, R, RB)
                                 </th>
                                 <th>
                                     ASAL USUL

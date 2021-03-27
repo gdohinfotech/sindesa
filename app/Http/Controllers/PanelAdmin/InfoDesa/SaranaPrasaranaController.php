@@ -7,7 +7,11 @@ use App\Http\Controllers\Controller;
 
 class SaranaPrasaranaController extends Controller
 {
-    public function indexSarPra(){
+    public function indexSarPra() {
         return view('PanelAdmin.admin-sarpra.index');
+    }
+
+    public function addSarPra() {
+        return view('PanelAdmin.admin-sarpra.add');
     }
 }
