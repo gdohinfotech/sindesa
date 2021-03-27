@@ -38,7 +38,7 @@
             <div class="card card-primary card-outline">
                 <div class="card-header">
                     <div class="btn-group">
-                        <button onclick="window.location='{{ route('admin.identitas-desa.edit') }}'" type="submit" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>
+                        <button onclick="window.location='{{ route('admin.wil-administratif.add-RW') }}'" type="submit" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>
                             Tambah RW
                         </button>
                     </div>
