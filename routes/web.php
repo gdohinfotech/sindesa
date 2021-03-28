@@ -48,6 +48,7 @@ Route::get('/keluarga','PanelAdmin\Keluarga\KeluargaController@index')->name('ad
 Route::get('/keluarga/kartukeluarga','PanelAdmin\Keluarga\KeluargaController@kartukeluarga')->name('admin.keluarga.kartukeluarga');
 Route::get('/keluarga/anggota','PanelAdmin\Keluarga\KeluargaController@anggotapenduduk')->name('admin.keluarga.anggota');
 Route::get('/keluarga/add','PanelAdmin\Keluarga\KeluargaController@addkeluarga')->name('admin.keluarga.add');
+Route::get('/keluarga/addanggota','PanelAdmin\Keluarga\KeluargaController@addanggota')->name('admin.keluarga.addanggota');
 
 
 

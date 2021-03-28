@@ -26,4 +26,9 @@ class KeluargaController extends Controller
     {
         return view('PanelAdmin.admin-keluarga.add');
     }
+
+    public function addanggota()
+    {
+        return view('PanelAdmin.admin-keluarga.addanggota');
+    }
 }

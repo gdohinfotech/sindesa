@@ -42,7 +42,7 @@
                 <div class="card-header">
                     <a href="{{ route('admin.kependudukan.add') }}" type="button" class="btn btn-info btn-sm btn-social"><i class="fa fa-plus"></i>Tambah Anggota </a>
                     <a href="{{ route('admin.keluarga.kartukeluarga') }}" type="button" class="btn btn-success btn-sm btn-social"><i class="fa fa-book"></i>Kartu Keluarga </a>
-                    <a href="{{ route('admin.kependudukan.index') }}" type="button" class="btn btn-primary btn-sm btn-social"><i class="fas fa-arrow-left"></i>Kembali ke Data Penduduk</a>
+                    <a href="{{ route('admin.keluarga.index') }}" type="button" class="btn btn-primary btn-sm btn-social"><i class="fas fa-arrow-left"></i>Kembali ke Daftar Keluarga</a>
                 </div>
                 <!-- data identitas desa -->
                 <div class="card-body">
