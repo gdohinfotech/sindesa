@@ -32,8 +32,5 @@ class PendudukController extends Controller
         return view('PanelAdmin.admin-penduduk.doc');
     }
 
-    public function anggotapenduduk()
-    {
-        return view('PanelAdmin.admin-penduduk.anggota');
-    }
+    
 }

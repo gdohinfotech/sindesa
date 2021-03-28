@@ -81,7 +81,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/flot.html" class="nav-link">
+                <a href="{{ route('admin.keluarga.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Kartu Keluarga</p>
                 </a>

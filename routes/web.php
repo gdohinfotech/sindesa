@@ -33,11 +33,16 @@ Route::get('pemerintahan-desa','PanelAdmin\InfoDesa\PemerintahDesaController@ind
 
 // Routes for Kependudukan
 Route::get('/penduduk','PanelAdmin\Kependudukan\PendudukController@index')->name('admin.kependudukan.index');
-Route::get('/add','PanelAdmin\Kependudukan\PendudukController@addpenduduk')->name('admin.kependudukan.add');
-Route::get('/edit','PanelAdmin\Kependudukan\PendudukController@editpenduduk')->name('admin.kependudukan.edit');
-Route::get('/read','PanelAdmin\Kependudukan\PendudukController@readpenduduk')->name('admin.kependudukan.read');
-Route::get('/document','PanelAdmin\Kependudukan\PendudukController@docpenduduk')->name('admin.kependudukan.doc');
-Route::get('/anggota','PanelAdmin\Kependudukan\PendudukController@anggotapenduduk')->name('admin.kependudukan.anggota');
+Route::get('/penduduk/add','PanelAdmin\Kependudukan\PendudukController@addpenduduk')->name('admin.kependudukan.add');
+Route::get('/penduduk/edit','PanelAdmin\Kependudukan\PendudukController@editpenduduk')->name('admin.kependudukan.edit');
+Route::get('/penduduk/read','PanelAdmin\Kependudukan\PendudukController@readpenduduk')->name('admin.kependudukan.read');
+Route::get('/penduduk/document','PanelAdmin\Kependudukan\PendudukController@docpenduduk')->name('admin.kependudukan.doc');
+
+// Routes for Keluarga
+Route::get('/keluarga','PanelAdmin\Keluarga\KeluargaController@index')->name('admin.keluarga.index');
+Route::get('/keluarga/kartukeluarga','PanelAdmin\Keluarga\KeluargaController@kartukeluarga')->name('admin.keluarga.kartukeluarga');
+Route::get('/keluarga/anggota','PanelAdmin\Keluarga\KeluargaController@anggotapenduduk')->name('admin.keluarga.anggota');
+Route::get('/keluarga/add','PanelAdmin\Keluarga\KeluargaController@addkeluarga')->name('admin.keluarga.add');
 
 
 

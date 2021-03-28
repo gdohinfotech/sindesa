@@ -43,7 +43,7 @@
                     <a href="{{ route('admin.kependudukan.doc') }}" type="button" class="btn btn-success btn-sm btn-social visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block"><i class="fa fa-book"></i>Manajemen Dokumen</a>
                     <a href="{{ route('admin.kependudukan.edit') }}" type="button" class="btn btn-secondary btn-sm btn-social visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block"><i class="fa fa-edit"></i>Ubah Biodata</a>
                     <a href="#" type="button" class="btn btn-info btn-sm btn-social visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block"><i class="fa fa-print"></i>Cetak Biodata</a>
-                    <a href="#" type="button" class="btn btn-default btn-sm btn-social visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block"><i class="fa fa-users"></i>Anggota Keluarga</a>
+                    <a href="{{ route('admin.keluarga.anggota') }}" type="button" class="btn btn-default btn-sm btn-social visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block"><i class="fa fa-users"></i>Anggota Keluarga</a>
                     <a href="{{ route('admin.kependudukan.index') }}" type="button" class="btn btn-primary btn-sm btn-social visible-xs-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block"><i class="fas fa-arrow-left"></i>Kembali ke Data Penduduk</a>
                 </div>
                 <!-- data identitas desa -->

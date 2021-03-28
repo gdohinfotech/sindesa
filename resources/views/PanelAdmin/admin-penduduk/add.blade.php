@@ -80,7 +80,7 @@
                             </div>
                             <div class="col-8">
                                 <div class="form-group">
-                                    <label for="namalengkap">Email address</label>
+                                    <label for="namalengkap">Nama Lengkap</label>
                                     <input type="text" class="form-control form-control-sm" id="namalengkap" placeholder="Nama Lengkaap">
                                 </div>
                             </div>

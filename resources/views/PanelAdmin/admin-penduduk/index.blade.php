@@ -10,7 +10,7 @@
         </div><!-- /.col -->
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">Dasbor</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('dasbor') }}">Dasbor</a></li>
                 <li class="breadcrumb-item active">Data Penduduk</li>
             </ol>
         </div><!-- /.col -->
@@ -75,9 +75,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -104,9 +104,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -133,9 +133,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -162,9 +162,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -191,9 +191,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -220,9 +220,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -249,9 +249,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -278,9 +278,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -307,9 +307,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
@@ -336,9 +336,9 @@
                                 </div>
                             </div>
                             </td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.kependudukan.read') }}">6372022311920003</a></td>
                             <td>RIZKYANOOR WIDIANTORO</td>
-                            <td>6372022311920003</td>
+                            <td><a href="{{ route('admin.keluarga.kartukeluarga') }}">6372022311920003</a></td>
                             <td>NOORCHALIDAH</td>
                             <td>6372022311920003</td>
                             <td>LANDASAN ULIN</td>
