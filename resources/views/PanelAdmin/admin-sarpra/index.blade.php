@@ -7,7 +7,7 @@
         <div class="row mb-2">
             <div class="col-sm-6">
                 <h1 class="m-0">
-                    Pemerintahan Desa
+                    Sarana dan Prasarana Desa
                 </h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
@@ -18,9 +18,7 @@
                         </a>
                     </li>
                     <li class="breadcrumb-item active">
-                        <a href="{{ route('admin.pemerintahan-desa.index') }}">
-                            Daftar Penyelenggara Pemerintahan Desa
-                        </a>
+                        Daftar Sarana dan Prasarana Desa
                     </li>
                 </ol>
             </div>
@@ -40,8 +38,8 @@
             <div class="card card-primary card-outline">
                 <div class="card-header">
                     <div class="btn-group">
-                        <button onclick="window.location='{{ route('admin.pemerintahan-desa.add') }}'" type="submit" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>
-                            Tambah Aparat Pemerintahan Desa
+                        <button onclick="window.location='{{ route('admin.sarana-prasarana-desa.add') }}'" type="submit" class="btn btn-primary btn-sm btn-social btn-block"><i class="fa fa-plus"></i>
+                            Tambah Data
                         </button>
                     </div>
                 </div>
@@ -61,39 +59,23 @@
                                     NAMA
                                 </th>
                                 <th>
-                                    NIK
+                                    KODE
                                 </th>
                                 <th>
-                                    NIP / NIPD
+                                    KATEGORI
                                 </th>
                                 <th>
-                                    TANGGAL LAHIR
+                                    STATUS
                                 </th>
                                 <th>
-                                    JENIS KELAMIN
+                                    KONDISI (B, KB, R, RB)
                                 </th>
                                 <th>
-                                    AGAMA
+                                    ASAL USUL
                                 </th>
                                 <th>
-                                    JABATAN
+                                    BIAYA (Rp.)
                                 </th>
-                                <th>
-                                    NOMOR SK PENGANGKATAN
-                                </th>
-                                <th>
-                                    TANGGAL SK PENGANGKATAN
-                                </th>
-                                <th>
-                                    TERHITUNG MULAI TANGGAL (TMT)
-                                </th>
-                                <th>
-                                    NOMOR SK PEMBERHENTIAN
-                                </th>
-                                <th>
-                                    TANGGAL SK PEMBERHENTIAN
-                                </th>
-                               
                             </tr>
                         </thead>
                         <tbody>
@@ -120,40 +102,25 @@
                                     <!-- </div> -->
                                 </td>
                                 <td>
-                                    1
+                                    Komputer Desktop
                                 </td>
                                 <td>
-                                    Aliansyah
+                                    xxxx.xx.xxx.xx.x
                                 </td>
                                 <td>
-                                    63031517******** 
+                                    Milik Desa
                                 </td>
                                 <td>
-                                    2
+                                    Milik Desa
                                 </td>
                                 <td>
-                                    184
+                                    B
                                 </td>
                                 <td>
-                                    744
+                                    APBDes
                                 </td>
                                 <td>
-                                    368
-                                </td>
-                                <td>
-                                    376
-                                </td>
-                                <td>
-                                    376
-                                </td>
-                                <td>
-                                    376
-                                </td>
-                                <td>
-                                    376
-                                </td>
-                                <td>
-                                    376
+                                    9,000,000
                                 </td>
                             </tr>
                             <tr>
@@ -179,40 +146,25 @@
                                     <!-- </div> -->
                                 </td>
                                 <td>
-                                    2
+                                    Posyandu
                                 </td>
                                 <td>
-                                    Muhammad Ramadani
+                                    xxxx.xx.xxx.xx.x
                                 </td>
                                 <td>
-                                    63031501********
+                                    Non Milik Desa
                                 </td>
                                 <td>
-                                    1
+                                    Bantuan Pemda
                                 </td>
                                 <td>
-                                    92
+                                    B
                                 </td>
                                 <td>
-                                    364
+                                    APBD
                                 </td>
                                 <td>
-                                    184
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                                <td>
-                                    180
-                                </td>
-                                <td>
-                                    180
+                                    150,000,000
                                 </td>
                             </tr>
                         </tbody>
