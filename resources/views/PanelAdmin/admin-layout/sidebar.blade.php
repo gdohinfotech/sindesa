@@ -87,7 +87,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/inline.html" class="nav-link">
+                <a href="{{ route('admin.rumahtangga.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Rumah Tangga</p>
                 </a>

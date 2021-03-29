@@ -18,12 +18,12 @@
                             </a>
                         </li>
                     <li class="breadcrumb-item">
-                        <a href="{{ route('admin.kependudukan.index') }}">
-                        Data Penduduk
+                        <a href="{{ route('admin.rumahtangga.index') }}">
+                        Daftar Rumah Tangga
                         </a>
                     </li>
                     <li class="breadcrumb-item active">
-                        Biodata Penduduk
+                        Biodata Anggota Rumah Tangga
                     </li>
                     </ol>
                 </div><!-- /.col -->
@@ -66,22 +66,51 @@
             <div class="card card-primary card-outline">
                     <div class="card-header">
                         <div class="btn-group">
-                            <a href="{{ route('admin.kependudukan.index') }}" type="button" class="btn btn-primary btn-sm btn-social btn-block"><i class="fas fa-arrow-left"></i>Kembali ke Data Penduduk</a>
+                            <a href="{{ route('admin.rumahtangga.index') }}" type="button" class="btn btn-primary btn-sm btn-social "><i class="fas fa-arrow-left"></i>Kembali ke Daftar Rumah Tangga</a>
+                            <a href="{{ route('admin.rumahtangga.anggota') }}" type="button" class="btn btn-primary btn-sm btn-social "><i class="fas fa-arrow-left"></i>Kembali ke Daftar Anggota Rumah Tangga</a>
                         </div>
                     </div>
                     <!-- data identitas desa -->
                     <div class="card-body">
                         <div class="row">
+                            <div class='col-sm-12'>
+                                <div class="form-group subtitle_head">
+                                    <label class="text-right"><strong>DATA KELUARGA :</strong></label>
+                                </div>
+                            </div>
+                            <div class='col-sm-4'>
+                                <div class='form-group'>
+                                    <label >No. Rumah Tangga </label>
+                                    <input class="form-control input-sm" type="text" value="6372022311920003" disabled></input>
+                                </div>
+                            </div>
+                            <div class='col-sm-8'>
+                                <div class='form-group'>
+                                    <label>Kepala KK</label>
+                                    <input class="form-control input-sm" type="text" value="RIZKYANOOR WIDIANTORO" disabled></input>
+                                </div>
+                            </div>
+                            <div class='col-sm-12'>
+                                <div class='form-group'>
+                                    <label>Alamat </label>
+                                    <input class="form-control input-sm" type="text" value="- RW - - RT 004" disabled></input>
+                                </div>
+                            </div>
+                            <div class='col-sm-12'>
+                                <div class="form-group subtitle_head">
+                                    <label class="text-right"><strong>DATA ANGGOTA :</strong></label>
+                                </div>
+                            </div>
                             <div class="col-4">
                                 <div class="form-group">
                                     <label for="NIK">NIK</label>
-                                    <input type="text" class="form-control form-control-sm" id="NIK" placeholder="Nomor NIK" value="6372022311920003">
+                                    <input type="text" class="form-control form-control-sm" id="NIK" placeholder="Nomor NIK">
                                 </div>
                             </div>
                             <div class="col-8">
                                 <div class="form-group">
                                     <label for="namalengkap">Nama Lengkap</label>
-                                    <input type="text" class="form-control form-control-sm" id="namalengkap" placeholder="Nama Lengkap" value="RIZKYANOOR WIDIANTORO">
+                                    <input type="text" class="form-control form-control-sm" id="namalengkap" placeholder="Nama Lengkaap">
                                 </div>
                             </div>
                             <div class="col-12">
@@ -99,7 +128,7 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td width="25%">WAJIB</td>
+                                                    <td width="25%"></td>
                                                     <td>
                                                     <select name="ktp_el" class="form-control form-control-sm">
                                                         <option value="">Pilih KTP-EL</option>
@@ -137,7 +166,7 @@
                             </div>
                             <div class='col-sm-4'>
                                 <div class='form-group'>
-                                                            <label for="kk_level">Hubungan Dalam Keluarga</label>
+                                    <label for="kk_level">Hubungan Dalam Keluarga</label>
                                     <select class="form-control form-control-sm " name="kk_level">
                                         <option value="">Pilih Hubungan Keluarga</option>
                                         <option value="1">KEPALA KELUARGA</option>
@@ -204,7 +233,7 @@
                             <div class='col-sm-8'>
                                 <div class='form-group'>
                                     <label for="tempatlahir">Tempat Lahir</label>
-                                    <input id="tempatlahir" name="tempatlahir" class="form-control form-control-sm required" maxlength="100" type="text" placeholder="Tempat Lahir" value="BANJARMASIN"></input>
+                                    <input id="tempatlahir" name="tempatlahir" class="form-control form-control-sm required" maxlength="100" type="text" placeholder="Tempat Lahir" value=""></input>
                                 </div>
                             </div>
                             <div class='col-sm-4'>
@@ -263,7 +292,7 @@
                                     <div class='col-sm-4'>
                                         <div class='form-group'>
                                             <label for="kelahiran_anak_ke">Anak Ke <code>(Isi dengan angka)</code></label>
-                                            <input id="kelahiran_anak_ke" name="kelahiran_anak_ke" class="form-control form-control-sm number" maxlength="2" type="text" placeholder="Anak Ke" value="2"></input>
+                                            <input id="kelahiran_anak_ke" name="kelahiran_anak_ke" class="form-control form-control-sm number" maxlength="2" type="text" placeholder="Anak Ke" value=""></input>
                                         </div>
                                     </div>
                                     <div class='col-sm-4'>
@@ -499,7 +528,7 @@
                                     <div class='col-sm-8'>
                                         <div class='form-group'>
                                             <label for="nama_ayah">Nama Ayah </label>
-                                            <input id="nama_ayah" name="nama_ayah" class="form-control form-control-sm required nama" maxlength="100" type="text" placeholder="Nama Ayah" value="DONNY WIDIASMORO"></input>
+                                            <input id="nama_ayah" name="nama_ayah" class="form-control form-control-sm required nama" maxlength="100" type="text" placeholder="Nama Ayah" value=""></input>
                                         </div>
                                     </div>
                                 </div>
@@ -513,7 +542,7 @@
                             <div class='col-sm-8'>
                                 <div class='form-group'>
                                     <label for="nama_ibu">Nama Ibu </label>
-                                    <input id="nama_ibu" name="nama_ibu" class="form-control form-control-sm required nama" maxlength="100" type="text" placeholder="Nama Ibu" value="NOORCHALIDAH"></input>
+                                    <input id="nama_ibu" name="nama_ibu" class="form-control form-control-sm required nama" maxlength="100" type="text" placeholder="Nama Ibu" value=""></input>
                                 </div>
                             </div>
                             <div class='col-sm-12'>

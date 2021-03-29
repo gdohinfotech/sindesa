@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\PanelAdmin\Keluarga;
+namespace App\Http\Controllers\PanelAdmin\Kependudukan;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

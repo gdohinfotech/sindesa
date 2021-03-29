@@ -44,11 +44,16 @@ Route::get('/penduduk/read','PanelAdmin\Kependudukan\PendudukController@readpend
 Route::get('/penduduk/document','PanelAdmin\Kependudukan\PendudukController@docpenduduk')->name('admin.kependudukan.doc');
 
 // Routes for Keluarga
-Route::get('/keluarga','PanelAdmin\Keluarga\KeluargaController@index')->name('admin.keluarga.index');
-Route::get('/keluarga/kartukeluarga','PanelAdmin\Keluarga\KeluargaController@kartukeluarga')->name('admin.keluarga.kartukeluarga');
-Route::get('/keluarga/anggota','PanelAdmin\Keluarga\KeluargaController@anggotapenduduk')->name('admin.keluarga.anggota');
-Route::get('/keluarga/add','PanelAdmin\Keluarga\KeluargaController@addkeluarga')->name('admin.keluarga.add');
-Route::get('/keluarga/addanggota','PanelAdmin\Keluarga\KeluargaController@addanggota')->name('admin.keluarga.addanggota');
+Route::get('/keluarga','PanelAdmin\Kependudukan\KeluargaController@index')->name('admin.keluarga.index');
+Route::get('/keluarga/kartukeluarga','PanelAdmin\Kependudukan\KeluargaController@kartukeluarga')->name('admin.keluarga.kartukeluarga');
+Route::get('/keluarga/anggota','PanelAdmin\Kependudukan\KeluargaController@anggotapenduduk')->name('admin.keluarga.anggota');
+Route::get('/keluarga/add','PanelAdmin\Kependudukan\KeluargaController@addkeluarga')->name('admin.keluarga.add');
+Route::get('/keluarga/addanggota','PanelAdmin\Kependudukan\KeluargaController@addanggota')->name('admin.keluarga.addanggota');
 
+// Routes for Rumah Tangga
+Route::get('/rumahtangga','PanelAdmin\Kependudukan\RumahTanggaController@index')->name('admin.rumahtangga.index');
+Route::get('/rumahtangga/anggota','PanelAdmin\Kependudukan\RumahTanggaController@anggotapenduduk')->name('admin.rumahtangga.anggota');
+Route::get('/rumahtangga/addanggota','PanelAdmin\Kependudukan\RumahTanggaController@addanggota')->name('admin.rumahtangga.addanggota');
+Route::get('/rumahtangga/karturumahtangga','PanelAdmin\Kependudukan\RumahTanggaController@karturumahtangga')->name('admin.rumahtangga.karturumahtangga');
 
 

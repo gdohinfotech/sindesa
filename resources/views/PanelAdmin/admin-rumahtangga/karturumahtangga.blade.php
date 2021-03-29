@@ -7,7 +7,7 @@
             <div class="row mb-2">
                 <div class="col-sm-6">
                     <h1 class="m-0">
-                        Salinan Kartu Keluarga
+                        Kartu Rumah Tangga
                     </h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
@@ -19,16 +19,16 @@
                         </li>
                     <li class="breadcrumb-item">
                         <a href="#">
-                        Daftar Keluarga
+                        Daftar Rumah Tangga
                         </a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="{{ route('admin.keluarga.anggota') }}">
-                        Daftar Anggota Keluarga
+                        <a href="{{ route('admin.rumahtangga.anggota') }}">
+                        Daftar Anggota Rumah Tangga
                         </a>
                     </li>
                     <li class="breadcrumb-item active">
-                        Kartu Keluarga
+                        Kartu Rumah Tangga
                     </li>
                     </ol>
                 </div><!-- /.col -->
@@ -47,11 +47,11 @@
                 <div class="card-header">
                     <a href="=" type="button" class="btn btn-info btn-sm btn-social"><i class="fa fa-print"></i>Cetak</a>
                     <a href="=" type="button" class="btn btn-default btn-sm btn-social"><i class="fa fa-download"></i>Unduh</a>
-                    <a href="{{ route('admin.keluarga.anggota') }}" type="button" class="btn btn-primary btn-sm btn-social"><i class="fas fa-arrow-left"></i>Kembali ke Daftar Anggota Keluarga</a>
-                    <a href="{{ route('admin.keluarga.index') }}" type="button" class="btn btn-primary btn-sm btn-social"><i class="fas fa-arrow-left"></i>Kembali ke Data Keluarga</a>
+                    <a href="{{ route('admin.rumahtangga.anggota') }}" type="button" class="btn btn-primary btn-sm btn-social"><i class="fas fa-arrow-left"></i>Kembali ke Daftar Anggota Rumah Tangga</a>
+                    <a href="{{ route('admin.rumahtangga.index') }}" type="button" class="btn btn-primary btn-sm btn-social"><i class="fas fa-arrow-left"></i>Kembali ke Data Rumah Tangga</a>
                 </div>  
                 <div class="card-body">
-                    <h3 class="text-center"><strong>SALINAN KARTU KELUARGA</strong></h3>
+                    <h3 class="text-center"><strong>KARTU RUMAH TANGGA</strong></h3>
                     <h5 class="text-center"><strong>No.  6372022311920003 </strong></h5>
                 </div>
                 <div class="card-body">

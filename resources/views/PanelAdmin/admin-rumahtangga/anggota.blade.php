@@ -7,7 +7,7 @@
             <div class="row mb-2">
                 <div class="col-sm-6">
                     <h1 class="m-0">
-                        Daftar Anggota Keluarga
+                        Daftar Anggota Rumah Tangga
                     </h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
@@ -18,12 +18,12 @@
                             </a>
                         </li>
                     <li class="breadcrumb-item">
-                        <a href="{{ route('admin.kependudukan.index') }}">
-                        Data Penduduk
+                        <a href="{{ route('admin.rumahtangga.index') }}">
+                        Data Rumah Tangga
                         </a>
                     </li>
                     <li class="breadcrumb-item active">
-                        Daftar Anggota Penduduk
+                        Daftar Anggota Rumah Tangga
                     </li>
                     </ol>
                 </div><!-- /.col -->
@@ -40,9 +40,9 @@
             <!-- ubah data identitas desa -->
             <div class="card card-primary card-outline">
                 <div class="card-header">
-                    <a href="{{ route('admin.keluarga.addanggota') }}" type="button" class="btn btn-info btn-sm btn-social"><i class="fa fa-plus"></i>Tambah Anggota </a>
-                    <a href="{{ route('admin.keluarga.kartukeluarga') }}" type="button" class="btn btn-success btn-sm btn-social"><i class="fa fa-book"></i>Kartu Keluarga </a>
-                    <a href="{{ route('admin.keluarga.index') }}" type="button" class="btn btn-primary btn-sm btn-social"><i class="fas fa-arrow-left"></i>Kembali ke Daftar Keluarga</a>
+                    <a href="{{ route('admin.rumahtangga.addanggota') }}" type="button" class="btn btn-info btn-sm btn-social"><i class="fa fa-plus"></i>Tambah Anggota</a>
+                    <a href="{{ route('admin.rumahtangga.karturumahtangga') }}" type="button" class="btn btn-success btn-sm btn-social"><i class="fa fa-book"></i>Kartu Rumah Tangga</a>
+                    <a href="{{ route('admin.rumahtangga.index') }}" type="button" class="btn btn-primary btn-sm btn-social"><i class="fas fa-arrow-left"></i>Kembali ke Daftar Rumah Tangga</a>
                 </div>
                 <!-- data identitas desa -->
                 <div class="card-body">
@@ -53,7 +53,7 @@
                                     <td nowrap style="padding-top : 10px;padding-bottom : 10px;" >NO KK</td><td nowrap > :  6372022311920003</td>
                                 </tr>
                                 <tr>
-                                    <td nowrap style="padding-top : 10px;padding-bottom : 10px; width:15%;" >Kepala Keluarga</td><td nowrap > : RIZKYANOOR WIDIANTORO</td>
+                                    <td nowrap style="padding-top : 10px;padding-bottom : 10px; width:15%;" >Kepala Rumah Tangga</td><td nowrap > : RIZKYANOOR WIDIANTORO</td>
                                 </tr>									
                                 <tr>
                                     <td nowrap style="padding-top : 10px;padding-bottom : 10px;" >Alamat</td><td nowrap > :  RT/RW :  002/003 </td>
@@ -72,6 +72,7 @@
                                             <th>No</th>
                                             <th>Aksi</th>
                                             <th>NIK</th>
+                                            <th>NO KK</th>
                                             <th>Nama</th>
                                             <th>Tanggal Lahir</th>
                                             <th>Jenis Kelamin</th>
@@ -82,11 +83,10 @@
                                         <tr>
                                             <td class="">1</td>
                                             <td class="">
-                                                <a href="{{ route('admin.kependudukan.edit') }}" class="btn bg-orange btn-flat btn-sm" title="Ubah Biodata Penduduk"><i class="fa fa-edit"></i></a>
-                                                <a href="#" data-href="" class="btn bg-purple btn-flat btn-sm" title="Pecah KK" data-toggle="modal" data-target="#pecah-kk" ><i class="fa fa-cut"></i></a>
                                                 <a href="#" data-remote="false" data-toggle="modal" data-target="#modal-lg" data-title="Ubah Hubungan Keluarga" title="Ubah Hubungan Keluarga" class="btn bg-navy btn-flat btn-sm"><i class='fa fa-link'></i></a>
-                                                <a href="#" class="btn bg-maroon btn-flat btn-sm" title="Bukan anggota keluarga ini" data-toggle="modal" data-target="#confirm-delete"><i class="fa fa-times"></i></a>
+                                                <a href="#" class="btn bg-maroon btn-flat btn-sm" title="Bukan anggota keluarga ini" data-toggle="modal" data-target="#confirm-delete"><i class="fa fa-trash"></i></a>
                                             </td>
+                                            <td>6372022311920003</td>
                                             <td>6372022311920003</td>
                                             <td nowrap width="25%">RIZKYANOOR WIDIANTORO</td>
                                             <td nowrap>20 Mei 1970</td>
@@ -96,11 +96,10 @@
                                         <tr>
                                             <td class="">2</td>
                                             <td class="">
-                                                <a href="{{ route('admin.kependudukan.edit') }}" class="btn bg-orange btn-flat btn-sm" title="Ubah Biodata Penduduk"><i class="fa fa-edit"></i></a>
-                                                <a href="#" data-href="" class="btn bg-purple btn-flat btn-sm" title="Pecah KK" data-toggle="modal" data-target="#confirm-status" data-body="Apakah Anda yakin ingin memecah Data Keluarga ini?"><i class="fa fa-cut"></i></a>
                                                 <a href="#" data-remote="false" data-toggle="modal" data-target="#modalBox" data-title="Ubah Hubungan Keluarga" title="Ubah Hubungan Keluarga" class="btn bg-navy btn-flat btn-sm"><i class='fa fa-link'></i></a>
-                                                <a href="#"  class="btn bg-maroon btn-flat btn-sm" title="Bukan anggota keluarga ini" data-toggle="modal" data-target="#confirm-status" data-body="Apakah yakin akan dikeluarkan dari keluarga ini?"><i class="fa fa-times"></i></a>
+                                                <a href="#"  class="btn bg-maroon btn-flat btn-sm" title="Bukan anggota keluarga ini" data-toggle="modal" data-target="#confirm-status" data-body="Apakah yakin akan dikeluarkan dari keluarga ini?"><i class="fa fa-trash"></i></a>
                                             </td>
+                                            <td>5201140301916995</td>
                                             <td>5201140301916995</td>
                                             <td nowrap width="25%">AHMAD HABIB</td>
                                             <td nowrap>03 Januari 1990</td>
@@ -110,11 +109,10 @@
                                         <tr>
                                             <td class="">3</td>
                                             <td class="">
-                                                <a href="{{ route('admin.kependudukan.edit') }}" class="btn bg-orange btn-flat btn-sm" title="Ubah Biodata Penduduk"><i class="fa fa-edit"></i></a>
-                                                <a href="#" data-href="" class="btn bg-purple btn-flat btn-sm" title="Pecah KK" data-toggle="modal" data-target="#confirm-status" data-body="Apakah Anda yakin ingin memecah Data Keluarga ini?"><i class="fa fa-cut"></i></a>
                                                 <a href="#" data-remote="false" data-toggle="modal" data-target="#modalBox" data-title="Ubah Hubungan Keluarga" title="Ubah Hubungan Keluarga" class="btn bg-navy btn-flat btn-sm"><i class='fa fa-link'></i></a>
-                                                <a href="#" class="btn bg-maroon btn-flat btn-sm" title="Bukan anggota keluarga ini" data-toggle="modal" data-target="#confirm-status" data-body="Apakah yakin akan dikeluarkan dari keluarga ini?"><i class="fa fa-times"></i></a>
+                                                <a href="#" class="btn bg-maroon btn-flat btn-sm" title="Bukan anggota keluarga ini" data-toggle="modal" data-target="#confirm-status" data-body="Apakah yakin akan dikeluarkan dari keluarga ini?"><i class="fa fa-trash"></i></a>
                                             </td>
+                                            <td>5201145003976995</td>
                                             <td>5201145003976995</td>
                                             <td nowrap width="25%">ADINI SEPTIA LISTA</td>
                                             <td nowrap>10 Maret 1996</td>
