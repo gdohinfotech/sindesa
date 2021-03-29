@@ -56,4 +56,5 @@ Route::get('/rumahtangga/anggota','PanelAdmin\Kependudukan\RumahTanggaController
 Route::get('/rumahtangga/addanggota','PanelAdmin\Kependudukan\RumahTanggaController@addanggota')->name('admin.rumahtangga.addanggota');
 Route::get('/rumahtangga/karturumahtangga','PanelAdmin\Kependudukan\RumahTanggaController@karturumahtangga')->name('admin.rumahtangga.karturumahtangga');
 
-
+//Rouets for Pengaturan Surat
+Route::get('/layanan-surat/pengaturan-surat','PanelAdmin\LayananSurat\PengaturanSuratController@indexPengaturanSurat')->name('admin.pengaturan-surat.index');
